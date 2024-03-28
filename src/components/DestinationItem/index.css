@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.destination-items {
+  width: 230px;
+  margin: 20px;
+  list-style-type: none;
+}
+.items-image {
+  height: 175px;
+  width: 235px;
+  border-radius: 15px;
+}
+.name {
+  font-size: 18px;
+  font-family: Open Sans;
+  color: black;
+}

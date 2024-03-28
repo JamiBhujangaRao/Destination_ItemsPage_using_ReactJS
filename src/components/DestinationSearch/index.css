@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+}
+.searchInput-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.inputEle {
+  padding: 20px;
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 20px;
+  align-self: center;
+  background-color: transparent;
+  width: 300px;
+  border-width: 0px;
+  margin-right: 20px;
+  outline: none;
+}
+.search-image {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+.destination-list {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media all and (min-width: 769px) {
+  .heading {
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+  .searchInput-container {
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+}
